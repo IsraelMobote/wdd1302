@@ -38,14 +38,17 @@ main {
 }
 
 aside {
+    position: relative;
+    bottom: 2rem;
     width: 70rem;
     text-align: center;
+
 }
 
 aside h2{
-    position: relative;
-    bottom: 1rem;
-    left: 1rem;
+    position: absolute;
+    bottom: 19rem;
+    left: 34rem;
 }
 
 aside img {
