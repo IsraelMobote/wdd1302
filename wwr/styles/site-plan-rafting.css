@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Saira+Semi+Condensed&display=swap');
+
+
+
+:root {
+
+    --primary-color: #ff9f1c;
+}
+:root {
+    --secndary-color: #000000
+}
+:root {
+    --accent1-color: #2ec4b6
+}
+:root {
+    --accent2-color: #000080
+
+}
+:root {
+    --heading-font: 'Amita', serif
+    
+
+}
+:root {
+    --paragraph-font: 'Saira Semi Condensed', sans-serif
+
+}
+
+:root {
+    --nav-background-color: #2ec4b6
+}
+
+:root{
+    --nav-link-color: #000000
+}
+:root {
+    --nav-hover-link-color: #000000
+}
+:root {
+    --nav-hover-background-color: #000080
+}
+    
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960;
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Amita',serif;
+    color: black;
+    text-align: center;
+}
+
+
+header {
+    padding: 10px;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    position: relative;
+    left: 30rem;
+}
+#special {
+    margin: auto;
+    position: relative;
+    left: 25rem;
+}
+
+p {
+    padding: 2px;
+    text-align: center;
+    width: 70rem;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
