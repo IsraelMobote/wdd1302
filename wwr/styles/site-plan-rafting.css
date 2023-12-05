@@ -43,7 +43,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960px;
+    max-width: 100rem;
     padding: 20px;
     background-color: var(--accent1-color);
 }
