@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Saira+Semi+Condensed&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+
+    --primary-color: #ff9f1c;
+}
+:root {
+    --secondary-color: #000000
+}
+:root {
+    --accent1-color: #2ec4b6
+}
+:root {
+    --accent2-color: #000080
+
+}
+:root {
+    --heading-font: 'Amita', serif
+    
+}
+
+:root {
+    --paragraph-font: 'Saira Semi Condensed', sans-serif
+
+}
+
+:root {
+    --nav-background-color: #2ec4b6
+}
+
+:root{
+    --nav-link-color: #000000
+}
+
+:root {
+    --nav-hover-link-color: #000000
+}
+:root {
+    --nav-hover-background-color: #000080
+}
+    
+
+header {
+    background-color: var(--primary-color);
+    width: 100%;
+    
+}
+
+
+header img {
+    position: relative;
+    left: 10rem;
+    padding: 20px;
+    display: inline-block;
+    
+}
+
+header nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 40rem;
+    top: 50px;
+    
+}
+
+body {
+    font-family: var(--paragraph-font);
+}
+h1, h2, h3, h4 {
+    font-family: var(--heading-font);
+}
+
+a {
+    padding: 20px;
+}
+
+.hero {
+    margin: 4rem;
+}
+div img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+}
+
+section h2 {
+    margin-top: 30px;
+    position: relative;
+    top: 40px;
+    
+}
+div h1 {
+    color: var(--accent2-color);
+    position: absolute;
+    left: 15%;
+    top: 20rem;
+    margin: auto;
+    padding-left: 13rem;
+    background-color: rgba(23, 50, 50, 0.7);
+    font-size: 60px;
+    width: 70%;
+    box-sizing: border-box;
+
+}
+.logo{height: 70px;width: 70px;border-radius: 50%;}
+
+#small {
+    width: 15rem;
+    height: 15rem;
+    padding: 0;
+    position: absolute;
+    top: 28rem;
+    left: 56rem;
+    border:  5px solid white;
+}
+
+#special {
+    color: var(--secondary-color);
+    font-size: 30px;
+    position: absolute;
+    top: 27rem;
+    width: 60%;
+    right: 23rem;
+    background-color: rgba(236, 233, 231, 0.7);
+}
+
+section div img {
+    margin-top: -20px;
+    margin: 5rem;
+    width: 83%;
+    position: relative;
+    left: 13px;
+    
+}
+
+section p {
+    width: 70%;
+    margin: auto;
+    font-size: 1.8rem;
+    padding: 15px;
+    position: relative;
+    top: 25px;
+}
+
+h2 {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    color: var(--accent2-color);
+}
