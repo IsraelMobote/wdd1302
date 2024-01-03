@@ -6,9 +6,10 @@
 
 nav {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(100px , 1fr));
     column-gap: 10px;
     justify-items: center;
+    justify-content: center;
     background-color: steelblue;
     padding: 5% ;
     align-items: center;
@@ -17,6 +18,7 @@ nav {
 nav>a {
     color: white;
     display: block;
+    min-width: 100px;
     padding-top: 20px ;
     padding-bottom: 20px;
     font-weight: 700;
