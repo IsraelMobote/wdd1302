@@ -84,7 +84,7 @@ nav>a {
 
 header>img {
 
-    min-width: 50px;
+    min-width: 150px;
 }
 
 
@@ -135,7 +135,7 @@ h1 {
 div>img {
     padding: 10px;
     max-width: 15%;
-    min-width: 50px;
+    min-width: 150px;
 
 }
 
@@ -176,7 +176,7 @@ h2 {
 
 #small {
     
-    min-width: 50px;
+    min-width: 100px;
     height: 200px;
     order: 1;
     padding: 0 ;
@@ -197,5 +197,5 @@ article > p {
     font-weight: bold;
     background-color: #2ec4b6;
     padding: 20px;
-    max-width: 740px;
+    max-width: 750px;
 }
