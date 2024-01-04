@@ -133,7 +133,7 @@ h1 {
 
 
 div>img {
-    padding: 10px;
+    
     max-width: 15%;
     min-width: 150px;
 
@@ -176,7 +176,7 @@ h2 {
 
 #small {
     
-    min-width: 100px;
+    min-width: 150px;
     height: 200px;
     order: 1;
     padding: 0 ;
