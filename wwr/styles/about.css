@@ -76,7 +76,7 @@ nav {
 }
 
 nav>a {
-    min-width: 100px;
+    min-width: 50px;
     text-align: center;
     border: 2px solid #2ec4b6;
 }
@@ -135,7 +135,7 @@ h1 {
 div>img {
     padding: 10px;
     max-width: 15%;
-    min-width: 150px;
+    min-width: 50px;
 
 }
 
@@ -176,7 +176,7 @@ h2 {
 
 #small {
     
-    min-width: 150px;
+    min-width: 50px;
     height: 200px;
     order: 1;
     padding: 0 ;
