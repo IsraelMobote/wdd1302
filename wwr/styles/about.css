@@ -133,7 +133,7 @@ h1 {
 
 
 div>img {
-    
+    padding: 10px;
     max-width: 15%;
     min-width: 150px;
 
@@ -141,6 +141,7 @@ div>img {
 
 section>p {
     max-width: 840px;
+    padding: 0 10px;
     margin: auto;
 }
 
