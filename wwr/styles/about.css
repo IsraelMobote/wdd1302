@@ -170,7 +170,7 @@ h2 {
     background-size: cover;
     display: grid;
     row-gap: 30px;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(100px, 1fr);
     padding: 50px 0;
 
 }
