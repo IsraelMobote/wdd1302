@@ -71,11 +71,13 @@ header {
 
 nav {
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
 }
 
 nav>a {
+    margin: 0 5px;
     min-width: 50px;
     text-align: center;
     border: 2px solid #2ec4b6;
