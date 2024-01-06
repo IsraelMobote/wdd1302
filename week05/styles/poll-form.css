@@ -29,13 +29,12 @@ h1 {
 form {
     background-color: hsl(221, 43%, 67%);
     max-width: 650px;
-    height: 550px;
     margin: 0 auto 200px;
     padding: 3em;
     display: grid;
     border: 2px solid hsl(220, 73%, 7%);
     border-radius: 1em;
-    overflow: auto;
+    
 
 }
 
@@ -81,6 +80,7 @@ input[type="checkbox"] {
     width: 22px;
     height: 22px;
     vertical-align: bottom;
+
 }
 
 button {
@@ -97,7 +97,7 @@ button:focus {
 }
 
 footer {
-    margin: 20px auto;
+    margin: 20px auto 0;
     padding: 90px 0 70px 0;
     text-align: center;
     background-color: hsl(220, 73%, 7%);
